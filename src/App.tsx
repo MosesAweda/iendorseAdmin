@@ -14,6 +14,7 @@
  
       <>
             <Routes>
+            <Route path='/' element={<Dashboard />} />
                <Route path='/Dashboard' element={<Dashboard />} />
                <Route path='/Notifications' element={<Notifications />} />
                <Route path='/Users' element={<Users />} />
